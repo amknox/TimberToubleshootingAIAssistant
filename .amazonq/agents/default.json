@@ -1,0 +1,94 @@
+{
+  "name": "default-agent",
+  "version": "1.0.0",
+  "description": "Default agent configuration",
+  "mcpServers": {
+    "timber-mcp-server": {
+      "command": "python3",
+      "args": [
+        "/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/src/timber_troubleshooting_ai_assistant/mcp_scripts/timber_mcp_protocol_server.py"
+      ],
+      "env": {
+        "LOCAL_MODE": "false",
+        "KNOWLEDGE_BASE_ID": "XQHHIEJ8MA",
+        "MODEL_ID": "anthropic.claude-3-sonnet-20240229-v1:0",
+        "AWS_REGION": "us-west-2"
+      },
+      "timeout": 120000
+    },
+    "timber_troubleshooting": {
+      "command": "python3",
+      "args": [
+        "/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/src/timber_troubleshooting_ai_assistant/mcp_scripts/timber_mcp_server.py"
+      ],
+      "env": {
+        "LOCAL_MODE": "false",
+        "KNOWLEDGE_BASE_ID": "XQHHIEJ8MA",
+        "PORT": "8081"
+      }
+    },
+    "bedrock_kb_retrieval": {
+      "command": "python3",
+      "args": [
+        "/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/src/timber_troubleshooting_ai_assistant/mcp_scripts/timber_mcp_server.py"
+      ],
+      "env": {
+        "LOCAL_MODE": "false",
+        "KNOWLEDGE_BASE_ID": "XQHHIEJ8MA",
+        "PORT": "8082"
+      }
+    },
+    "bedrock-kb-retrieval": {
+      "command": "python3",
+      "args": [
+        "/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/src/timber_troubleshooting_ai_assistant/mcp_scripts/timber_mcp_protocol_server.py"
+      ],
+      "env": {
+        "LOCAL_MODE": "false",
+        "KNOWLEDGE_BASE_ID": "XQHHIEJ8MA"
+      }
+    }
+  },
+  "tools": [
+    "@timber-mcp-server",
+    "fsRead",
+    "fsWrite",
+    "fsReplace",
+    "listDirectory",
+    "fileSearch",
+    "executeBash",
+    "codeReview",
+    "@timber_troubleshooting",
+    "@bedrock_kb_retrieval",
+    "@bedrock-kb-retrieval"
+  ],
+  "allowedTools": [
+    "fsRead",
+    "listDirectory",
+    "fileSearch",
+    "codeReview"
+  ],
+  "toolsSettings": {
+    "execute_bash": {
+      "alwaysAllow": [
+        {
+          "preset": "readOnly"
+        }
+      ]
+    },
+    "use_aws": {
+      "alwaysAllow": [
+        {
+          "preset": "readOnly"
+        }
+      ]
+    }
+  },
+  "includedFiles": [
+    "AmazonQ.md",
+    "README.md",
+    ".amazonq/rules/**/*.md"
+  ],
+  "resources": [],
+  "promptHooks": []
+}

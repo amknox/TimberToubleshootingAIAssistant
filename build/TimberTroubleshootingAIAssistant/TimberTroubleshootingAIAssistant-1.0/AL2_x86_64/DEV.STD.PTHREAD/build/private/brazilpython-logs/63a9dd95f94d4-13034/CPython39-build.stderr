@@ -1,0 +1,15 @@
+[CPython39-build] Creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21
+[CPython39-build] Creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/python3.9
+[CPython39-build] [build plugins] Executing commands in 0 for before-default
+[CPython39-build] [build plugins] Executing commands in 0 for before-all
+[CPython39-build] warning: build_py: byte-compiling is disabled, skipping.
+[CPython39-build] 
+[CPython39-build] [install plugins] Executing commands in 0 for before-default
+[CPython39-build] [install plugins] Executing commands in 0 for before-all
+[CPython39-build] warning: install_lib: byte-compiling is disabled, skipping.
+[CPython39-build] 
+[CPython39-build] Installing root scripts for python3.9 (root_script_source_version=default-only)
+[CPython39-build] [install plugins] Executing commands in 0 for after-all
+[CPython39-build] [install plugins] Executing commands in 0 for after-default
+[CPython39-build] [build plugins] Executing commands in 0 for after-all
+[CPython39-build] [build plugins] Executing commands in 0 for after-default

@@ -1,0 +1,33 @@
+2025-08-01 19:44:24,376 - timber-mcp-server - INFO - Configuration loaded - Knowledge Base ID: XQHHIEJ8MA, Model ID: anthropic.claude-3-sonnet-20240229-v1:0
+2025-08-01 19:44:24,376 - timber-mcp-server - INFO - Starting in BEDROCK mode - will connect to AWS Bedrock
+2025-08-01 19:44:24,376 - timber-mcp-server - INFO - Target Knowledge Base ID: XQHHIEJ8MA
+2025-08-01 19:44:24,376 - timber-mcp-server - INFO - Target Model ID: anthropic.claude-3-sonnet-20240229-v1:0
+/home/amknox/.local/lib/python3.7/site-packages/boto3/compat.py:82: PythonDeprecationWarning: Boto3 will no longer support Python 3.7 starting December 13, 2023. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.8 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+2025-08-01 19:44:24,393 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-08-01 19:44:24,449 - timber-mcp-server - INFO - Successfully initialized Bedrock clients
+2025-08-01 19:44:24,449 - timber-mcp-server - INFO - Bedrock clients ready to connect to Knowledge Base: XQHHIEJ8MA
+2025-08-01 19:44:24,449 - timber-mcp-server - INFO - BedrockClient initialized with Knowledge Base ID: XQHHIEJ8MA
+2025-08-01 19:44:24,449 - timber-mcp-server - INFO - BedrockClient initialized with Model ID: anthropic.claude-3-sonnet-20240229-v1:0
+2025-08-01 19:44:24,450 - timber-mcp-server - INFO - Starting Timber MCP Server - Mode: BEDROCK, Port: 8081, KB: XQHHIEJ8MA
+INFO:     Started server process [17138]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+2025-08-01 19:44:26,796 - timber-mcp-server - INFO - Health check requested - Mode: bedrock, KB ID: XQHHIEJ8MA
+2025-08-01 19:44:27,075 - timber-mcp-server - WARNING - Health check: Bedrock connection failed - An error occurred (UnrecognizedClientException) when calling the Retrieve operation: The security token included in the request is invalid
+
+=== TIMBER MCP SERVER STARTUP ===
+Mode: BEDROCK
+Port: 8081
+Knowledge Base ID: XQHHIEJ8MA
+Model ID: anthropic.claude-3-sonnet-20240229-v1:0
+Bedrock Knowledge Base: XQHHIEJ8MA
+API Documentation: http://localhost:8081/docs
+Health Check: http://localhost:8081/health
+=== SERVER STARTING ===
+INFO:     127.0.0.1:58078 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [17138]

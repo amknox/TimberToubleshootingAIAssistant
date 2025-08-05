@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: timbertroubleshootingaiassistant
+Version: 1.0
+Summary: TimberTroubleshootingAIAssistant
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# TimberTroubleshootingAIAssistant
+
+** Describe TimberTroubleshootingAIAssistant here **
+
+## Documentation
+
+Generated documentation for the latest released version can be accessed here:
+https://devcentral.amazon.com/ac/brazil/package-master/package/go/documentation?name=TimberTroubleshootingAIAssistant&interface=1.0&versionSet=live
+
+## Development
+
+See instructions in DEVELOPMENT.md
+
+

@@ -1,0 +1,6 @@
+base = {
+  workspace = amknox_TimberToubleshootingAIAssistant; 
+  versionSet = "TimberTroubleshootingAIAssistant-amknox/dev";
+  dependencyModel = brazil;
+};
+packages = { TimberTroubleshootingAIAssistant-1.0 = .; };

@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/timber_troubleshooting_ai_assistant/__init__.py
+test/test_timber_troubleshooting_ai_assistant.py

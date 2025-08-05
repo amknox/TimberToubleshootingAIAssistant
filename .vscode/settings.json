@@ -1,0 +1,12 @@
+{
+  "amazonQ.mcpServers": {
+    "timber-troubleshooting": {
+      "command": "python3",
+      "args": ["/home/amknox/workplace/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/src/timber_troubleshooting_ai_assistant/mcp_scripts/timber_mcp_server.py"],
+      "env": {
+        "KNOWLEDGE_BASE_ID": "XQHHIEJ8MA",
+        "LOCAL_MODE": "false"
+      }
+    }
+  }
+}

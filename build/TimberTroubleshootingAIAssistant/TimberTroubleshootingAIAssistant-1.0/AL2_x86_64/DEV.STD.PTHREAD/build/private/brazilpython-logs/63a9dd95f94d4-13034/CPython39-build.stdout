@@ -1,0 +1,29 @@
+[CPython39-build] running brazil
+[CPython39-build] running build
+[CPython39-build] running brazil_egg_info
+[CPython39-build] running egg_info
+[CPython39-build] creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info
+[CPython39-build] writing /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info/PKG-INFO
+[CPython39-build] writing dependency_links to /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info/dependency_links.txt
+[CPython39-build] writing top-level names to /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info/top_level.txt
+[CPython39-build] writing manifest file '/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info/SOURCES.txt'
+[CPython39-build] reading manifest file '/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info/SOURCES.txt'
+[CPython39-build] writing manifest file '/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info/SOURCES.txt'
+[CPython39-build] running build_py
+[CPython39-build] creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/lib
+[CPython39-build] creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/lib/timber_troubleshooting_ai_assistant
+[CPython39-build] copying src/timber_troubleshooting_ai_assistant/__init__.py -> /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/lib/timber_troubleshooting_ai_assistant
+[CPython39-build] copying src/timber_troubleshooting_ai_assistant/py.typed -> /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/lib/timber_troubleshooting_ai_assistant
+[CPython39-build] running brazil_install
+[CPython39-build] running install_lib
+[CPython39-build] creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/lib
+[CPython39-build] creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/lib/python3.9
+[CPython39-build] creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/lib/python3.9/site-packages
+[CPython39-build] creating /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/lib/python3.9/site-packages/timber_troubleshooting_ai_assistant
+[CPython39-build] copying /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/lib/timber_troubleshooting_ai_assistant/__init__.py -> /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/lib/python3.9/site-packages/timber_troubleshooting_ai_assistant
+[CPython39-build] copying /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/lib/timber_troubleshooting_ai_assistant/py.typed -> /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/lib/python3.9/site-packages/timber_troubleshooting_ai_assistant
+[CPython39-build] running install_egg_info
+[CPython39-build] Copying /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/private/CPython/3.9.21/timbertroubleshootingaiassistant.egg-info to /workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/build/lib/python3.9/site-packages/timbertroubleshootingaiassistant-1.0-py3.9.egg-info
+[CPython39-build] running install_scripts
+[CPython39-build] running brazilpython_root_scripts
+[CPython39-build] running build_scripts

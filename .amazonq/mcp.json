@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "bedrock-kb-retrieval": {
+      "command": "python3",
+      "args": [
+        "/workplace/amknox/TimberToubleshootingAIAssistant/src/TimberTroubleshootingAIAssistant/src/timber_troubleshooting_ai_assistant/mcp_scripts/timber_mcp_protocol_server.py"
+      ],
+      "env": {
+        "LOCAL_MODE": "false",
+        "KNOWLEDGE_BASE_ID": "XQHHIEJ8MA"
+      }
+    }
+  }
+}
