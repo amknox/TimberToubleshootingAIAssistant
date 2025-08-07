@@ -60,13 +60,15 @@
     "codeReview",
     "@timber_troubleshooting",
     "@bedrock_kb_retrieval",
-    "@bedrock-kb-retrieval"
+    "@bedrock-kb-retrieval",
+    "displayFindings"
   ],
   "allowedTools": [
     "fsRead",
     "listDirectory",
     "fileSearch",
-    "codeReview"
+    "codeReview",
+    "displayFindings"
   ],
   "toolsSettings": {
     "execute_bash": {
